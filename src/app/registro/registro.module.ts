@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { CalculadoraPageRoutingModule } from './calculadora-routing.module';
+import { RegistroPageRoutingModule } from './registro-routing.module';
 
-import { CalculadoraPage } from './calculadora.page';
+import { RegistroPage } from './registro.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    CalculadoraPageRoutingModule
+    RegistroPageRoutingModule
   ],
-  declarations: [CalculadoraPage]
+  declarations: [RegistroPage]
 })
-export class CalculadoraPageModule {}
+export class RegistroPageModule {}

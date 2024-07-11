@@ -1,0 +1,41 @@
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+ion-toolbar,
+ion-tab-bar {
+  --background: #5f5f5f;
+
+  ion-title {
+    font-weight: 600;
+  }
+}
+
+#mapbox {
+  width: 100% !important;
+  height: 600px;
+  #toolbar-mapbox {
+    --background: transparent;
+    position: fixed;
+    bottom: 35px;
+    display: flex;
+    .botoes-acao {
+      display: flex;
+      justify-content: flex-end;
+      gap: 5px;
+      margin: 10px;
+      #ion-icon-navigation {
+        font-size: 50px;
+        color: black;
+        background: #e0e0e0;
+        border-radius: 50%;
+      }
+
+      #get-route {
+        font-size: 30px;
+        padding: 10px;
+        color: black;
+        background: #e0e0e0;
+        border-radius: 50%;
+      }
+    }
+  }
+}
