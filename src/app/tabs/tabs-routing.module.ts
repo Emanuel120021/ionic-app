@@ -15,20 +15,6 @@ const routes: Routes = [
           import('../home/home.module').then((m) => m.HomePageModule),
       },
       {
-        path: 'calculadora',
-        loadChildren: () =>
-          import('../calculadora/calculadora.module').then(
-            (m) => m.CalculadoraPageModule
-          ),
-      },
-      {
-        path: 'calendario',
-        loadChildren: () =>
-          import('../calendario/calendario.module').then(
-            (m) => m.CalendarioPageModule
-          ),
-      },
-      {
         path: 'maps',
         loadChildren: () =>
           import('../maps/maps.module').then((m) => m.MapsPageModule),

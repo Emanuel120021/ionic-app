@@ -18,30 +18,19 @@ const routes: Routes = [
       import('./tabs/tabs.module').then((m) => m.TabsPageModule),
   },
   {
-    path: 'calendario',
-    loadChildren: () =>
-      import('./calendario/calendario.module').then(
-        (m) => m.CalendarioPageModule
-      ),
-  },
-  {
-    path: 'calculadora',
-    loadChildren: () =>
-      import('./calculadora/calculadora.module').then(
-        (m) => m.CalculadoraPageModule
-      ),
-  },
-  {
     path: 'maps',
-    loadChildren: () => import('./maps/maps.module').then( m => m.MapsPageModule)
+    loadChildren: () =>
+      import('./maps/maps.module').then((m) => m.MapsPageModule),
   },
   {
     path: 'login',
-    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
+    loadChildren: () =>
+      import('./login/login.module').then((m) => m.LoginPageModule),
   },
   {
     path: 'registro',
-    loadChildren: () => import('./registro/registro.module').then( m => m.RegistroPageModule)
+    loadChildren: () =>
+      import('./registro/registro.module').then((m) => m.RegistroPageModule),
   },
 ];
 
